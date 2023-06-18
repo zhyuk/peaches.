@@ -1,0 +1,22 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+html {scroll-behavior: smooth;}
+body {background-color: #000; color: #fff; width: 100%; height: 100%; font-family: "Pretendard Variable"; width: 100vw; overflow-x: hidden;}
+header {width: 100%; margin-top: 2vh; display: flex; justify-content: space-between; align-items: center; position: fixed; top: 0; left: 0;}
+section {width: 100%; height: 95vh; margin-top: 5vh;}
+
+::-webkit-scrollbar {display: none;}
+a {color: #fff;}
+
+.wrapper {width: 95%; margin: 0 auto;}
+.clear {clear: both;}
+
+/* header  */
+header .logo {width: 130px; margin: 0 20px;}
+
+/* main */
+section#main {background-image: url(../img/bg01.gif); background-size: 100%; background-repeat: no-repeat; display: flex; align-items: center; justify-content: center;}
+#main .text_box {width: 500px; height: 500px; display: none; flex-direction: column; align-items: center; justify-content: center;}
+#main .text_box li {padding: 20px; font-size: 80px; font-weight: 900;}
+#main .text_box a { cursor: pointer; -webkit-text-stroke: 1px red; background-image: linear-gradient(0deg, red, red); -webkit-background-clip: text; color: transparent; background-repeat: no-repeat; background-position: 0% 0%; background-size: 0% 100%; transition: background-size 0.2s ease-in;}
+#main .text_box a:hover {background-size: 100% 100%; filter: drop-shadow(0 0 10px red);}
