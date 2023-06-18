@@ -7,7 +7,7 @@ const images = [
     "img/archive_casetify.png",
     "img/archive_kartrider.png",
     "img/archive_libilly.png",
-    "img/archive_obey.png",
+    "img/archive_obey.jpg",
     "img/archive_recaro.png",
     "img/archive_uniqlo.png",
     "img/archive_nct127.png"
