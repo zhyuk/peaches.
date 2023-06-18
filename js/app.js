@@ -27,15 +27,15 @@ class App {
     // 캔버스의 크기롤 조정하는 메서드
     resize() {
         // 현재 창의 너비 절반을 저장. 캔버스와 다각형의 가로 크기 결정하는데 사용
-        this.stageWidth = window.innerWidth * 0.5;
+        this.stageWidth = window.innerWidth;
         // 현재 창의 높이 절반을 저장. 캔버스와 다각형의 세로 크기 결정하는데 사용
-        this.stageHeight = window.innerHeight * 0.5;
+        this.stageHeight = window.innerHeight;
         // 캔버스 요소의 너비를 설정. stageWidth에 pixelRatio를 곱해 고해상도 디스플레이에서도 픽셀 밀도를 유지한다.
-        this.canvas.width = this.stageWidth * this.pixelRatio;
+        this.canvas.width = this.stageWidth;
         // 캔버스 요소의 높이를 설정. 
-        this.canvas.height = this.stageHeight * this.pixelRatio;
+        this.canvas.height = this.stageHeight;
         // 캔버스 크기를 조정하여 고해상도 디스플레이에서 선명한 그래픽을 그릴 수 있음.
-        this.ctx.scale(this.pixelRatio, this.pixelRatio)
+        // this.ctx.scale(this.pixelRatio, this.pixelRatio)
 
         // 다각형의 초기 위치와 크기 
         this.polygon = new Polygon(

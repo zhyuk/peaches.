@@ -46,7 +46,7 @@ export class Polygon {
       ctx.translate(x, y);
       ctx.rotate(((360 / this.sides) * i  + 90) * Math.PI / 180);
 
-      ctx.drawImage(image, -50, -50, 150, 200); // 이미지 크기는 100x100으로 가정
+      ctx.drawImage(image, -50, -50, 300, 400); // 이미지 크기는 100x100으로 가정
 
       ctx.restore();
     }
