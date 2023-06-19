@@ -36,6 +36,7 @@ window.onload = function() {
         brand_nav.classList.remove("select");
         parts_img.classList.add("hide");
         parts_text.classList.add("hide");
+        parts_nav.classList.remove("select");
         d8ne_img.classList.remove("hide");
         d8ne_text.classList.remove("hide");
         d8ne_nav.classList.add("select");
